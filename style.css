@@ -32,13 +32,14 @@ body {
 }
 
 .bmi {
-    width: 800px;
+    width: 1000px;
     height: 600px;
+    border-radius: 8px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.07);
 }
