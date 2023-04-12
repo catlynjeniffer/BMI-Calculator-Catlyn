@@ -109,3 +109,18 @@ input[type = 'submit'] {
     color: white;
     cursor: pointer;
 }
+
+form, .result {
+    background-color: white;
+    width: 90%;
+}
+
+.result {
+    padding: 16px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.result > p{
+    padding: 2px;
+}
