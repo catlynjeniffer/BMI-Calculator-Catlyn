@@ -39,7 +39,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    align-items: center;
     text-align: center;
     background-color: white;
     box-shadow:  0 4px 8px rgba(0,0,0,0.07);
@@ -49,7 +48,7 @@ body {
     background: url(img/bmi2.png) no-repeat center;
     background-size: cover;
     height: 100%;
-    width: 80%;
+    width: 100%;
     border-radius: 8px 0 0 8px;
 }
 
@@ -62,4 +61,17 @@ h1 {
     text-align: center;
     align-items: center;
     transform: translate(-50%, -50%);
+}
+
+.right {
+    padding: 32px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
 }
