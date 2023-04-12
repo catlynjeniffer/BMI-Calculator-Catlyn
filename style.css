@@ -27,7 +27,8 @@ body {
     left: 0; top: 0;
     background: url(img/bmi.png) no-repeat center;
     background-size: cover;
-    filter: blur(12px);
+    filter: blur(20px);
+    transform: scale(1.1); 
     z-index: -1;
 }
 
@@ -42,4 +43,13 @@ body {
     text-align: center;
     background-color: white;
     box-shadow:  0 4px 8px rgba(0,0,0,0.07);
+}
+
+.left {
+    background: url(img/bmi.png) no-repeat center;
+    background-size: cover;
+    filter: brightness(30%);
+    height: 100%;
+    width: 80%;
+    border-radius: 8px 0 0 8px;
 }
