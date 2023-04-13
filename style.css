@@ -41,7 +41,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: white;
-    box-shadow:  0 4px 8px rgba(0,0,0,0.07);
+    box-shadow:  0 4px 16px rgba(0,0,0,0.5);
 }
 
 .left {
@@ -55,16 +55,21 @@ body {
 h1 {
     position: absolute;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     justify-content: center;
     text-align: center;
     align-items: center;
-    transform: translate(-50%, -50%);
+    top: 40%; left: 21%;
+    line-height: 1.2;
+
 }
 
 .right {
     padding: 32px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -78,7 +83,7 @@ h4 {
     line-height: 1.2;
 }
 
-form {
+form{
     margin-top: 8px;
     padding: 20px;
     width: 100%;
@@ -110,17 +115,15 @@ input[type = 'submit'] {
     cursor: pointer;
 }
 
-form, .result {
-    background-color: white;
-    width: 90%;
-}
-
 .result {
     padding: 16px;
     font-size: 21px;
     font-weight: 600;
+    width: 90%;
 }
 
 .result > p{
     padding: 2px;
+    color: black;
+    text-align: ce;
 }
