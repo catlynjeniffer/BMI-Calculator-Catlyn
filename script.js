@@ -1,9 +1,8 @@
 const body = document.body
 document.querySelector('form').addEventListener('submit', handleEvent)
-let result = document.createElement('div')
+let result = document.getElementById("myDiv")
 let bimNumber = document.createElement('p')
-let status = document.createElement('p')
-result.classList.add('result')
+let statuss = document.createElement('p')
 
 function handleEvent(e){
     e.preventDefault()
@@ -33,12 +32,10 @@ function calcBMI(height, weight){
 }
 
 function showResult(bmi, nutritionStatus){
-    bimNumber.innerText = `BMI : ${bmi}`
-    status.innerText = nutritionStatus
+    bimNumber.textContent = `BMI : ${bmi}`
+    statuss.textContent = nutritionStatus
     
-    result.append(bimNumber)
-    result.append(status)
-
-    body.append(result)
+    result.appendChild(bimNumber)
+    result.appendChild(statuss)
 
 }
